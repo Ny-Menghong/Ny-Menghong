@@ -2,12 +2,8 @@
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
-<img src="https://wallpapers-clan.com/wp-content/uploads/2025/11/naruto-uzumaki-intense-stare-with-fiery-chakra-aura-gif-desktop-wallpaper-preview.gif" width="0" height="0" alt="preload"/>
-
-<img src="https://caprender.vercel.app/api?type=waving&color=0:0D1B2A,100:FF6B35&height=350&section=header&text=&fontSize=0&animation=fadeIn" width="0" height="0" alt="preload"/>
-
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&weight=900&size=45&duration=2000&pause=1000&color=FF6B35&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=180&lines=NY-MENGHONG;WEB+DEVELOPER+%7C+CAMBODIA;BELIEVE+IT!" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&weight=900&size=45&duration=2000&pause=1000&color=FF6B35&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=180&lines=NY-MENGHONG;BUILDING;BELIEVE+IT!" alt="Typing SVG" />
 </a>
 
 <br/>
