@@ -24,7 +24,7 @@
 <tr>
 <td width="40%" align="center">
 
-<img src="https://media1.tenor.com/m/RWix-Qhnhn8AAAAC/naruto-uzumaki.gif" width="300" alt="Naruto Action"/>
+<img src="https://wallpapers-clan.com/wp-content/uploads/2025/11/naruto-uzumaki-intense-stare-with-fiery-chakra-aura-gif-desktop-wallpaper-preview.gif" width="300" alt="Naruto Action"/>
 
 </td>
 <td width="60%">
