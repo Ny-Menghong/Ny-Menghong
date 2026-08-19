@@ -24,12 +24,11 @@
 <tr>
 <td width="40%" align="center">
 
-<img src="https://wallpapers-clan.com/wp-content/uploads/2025/11/naruto-uzumaki-intense-stare-with-fiery-chakra-aura-gif-desktop-wallpaper-preview.gif" width="300" alt="Naruto Action"/>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/3fa8d871339223.5bea20907a30e.gif" width="300" alt="Naruto Action"/>
 
 </td>
 <td width="60%">
-
-### <img src="https://raw.githubusercontent.com/ABSphreak/readme-emojis/master/emojis/hi.gif" width="30"/> About Me
+ About Me
 
 I'm a **Web Developer** from Cambodia who loves building things for the web and watching anime.
 
@@ -148,7 +147,7 @@ hobbies: Anime, Gaming, Coding
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<img src="https://i.imgur.com/6GlB4KX.gif" width="100%"/>
 
 <br/>
 
