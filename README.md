@@ -290,7 +290,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1B2A,25:1B263B,50:415A77,75:778DA9,100:E0E1DD&height=200&section=footer&text=%F0%9F%8E%AF+Thank+You+for+Visiting+%F0%9F%8E%AF&fontSize=18&fontColor=E0E1DD&animation=fadeIn" width="100%"/>
+<img src="https://i.pinimg.com/1200x/7b/9f/b7/7b9fb74e9773b5eea3cfebc7138ca13e.jpg" width="100%"/>
 
 </div>
 
