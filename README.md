@@ -2,13 +2,13 @@
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
   <img alt="Ny-Menghong's GitHub profile" src="dark_mode.svg" />
 </picture>
-<p align="center">
+<!-- <p align="center">
   <img
     src="./my_svg.svg"
     width="500"
     alt="SVG Demo"
   />
-</p>
+</p> -->
 <div align="center">
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
