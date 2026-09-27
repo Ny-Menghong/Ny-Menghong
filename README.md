@@ -1,7 +1,7 @@
-<picture>
+<!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
   <img alt="Ny-Menghong's GitHub profile" src="dark_mode.svg" />
-</picture>
+</picture> -->
 <!-- <p align="center">
   <img
     src="./my_svg.svg"
