@@ -1,0 +1,486 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1331" height="728" viewBox="0 0 1331 728" role="img" aria-label="ASCII GitHub profile card for Ny-Menghong">
+<defs>
+<clipPath id="cardClip"><rect x="0" y="0" width="1331" height="728" rx="8"/></clipPath>
+<linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#04070f" stop-opacity="0.5"/>
+<stop offset="0.42" stop-color="#04070f" stop-opacity="0.62"/>
+<stop offset="1" stop-color="#04070f" stop-opacity="0.4"/>
+</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0d1117" stop-opacity="0.45"/>
+<stop offset="1" stop-color="#010409" stop-opacity="0.6"/>
+</linearGradient>
+<linearGradient id="sideFade" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#03060d" stop-opacity="0"/>
+<stop offset="0.2" stop-color="#03060d" stop-opacity="0.78"/>
+<stop offset="1" stop-color="#03060d" stop-opacity="0.85"/>
+</linearGradient>
+<radialGradient id="keyLight">
+<stop offset="0" stop-color="#6bffd4" stop-opacity="0.4"/>
+<stop offset="0.45" stop-color="#3ad9c8" stop-opacity="0.2"/>
+<stop offset="1" stop-color="#2f9fd8" stop-opacity="0"/>
+</radialGradient>
+</defs>
+  <g clip-path="url(#cardClip)">
+<svg x="0" y="0" width="1331" height="728" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05060f"/>
+      <stop offset="0.38" stop-color="#0b1233"/>
+      <stop offset="0.7" stop-color="#152048"/>
+      <stop offset="1" stop-color="#221a44"/>
+    </linearGradient>
+
+    <linearGradient id="auroraA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b6ffe6" stop-opacity="0.95"/>
+      <stop offset="0.3" stop-color="#3dffb8" stop-opacity="0.7"/>
+      <stop offset="0.7" stop-color="#12b9a4" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#0a6d9c" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="auroraB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a4ff" stop-opacity="0.8"/>
+      <stop offset="0.4" stop-color="#6a5cff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#2a2f7a" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="auroraC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb0dd" stop-opacity="0.72"/>
+      <stop offset="0.42" stop-color="#c464ff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#4a2f8c" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="ray" gradientUnits="userSpaceOnUse" x1="0" y1="90" x2="0" y2="330">
+      <stop offset="0" stop-color="#eafff7" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#5bffc8" stop-opacity="0.55"/>
+      <stop offset="0.75" stop-color="#16c1a6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a6fa0" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fffd0" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#4fffd8" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#4fbfff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1330" stop-opacity="0.55"/>
+      <stop offset="0.35" stop-color="#070d22" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#03060f"/>
+    </linearGradient>
+
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#cfe4ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <radialGradient id="moonGlow">
+      <stop offset="0" stop-color="#fff8e2" stop-opacity="0.85"/>
+      <stop offset="0.35" stop-color="#ffe9b5" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="moonFace" cx="0.38" cy="0.34" r="0.75">
+      <stop offset="0" stop-color="#fffdf4"/>
+      <stop offset="0.7" stop-color="#f3e7c8"/>
+      <stop offset="1" stop-color="#cdbfa0"/>
+    </radialGradient>
+
+    <radialGradient id="vignette" cx="0.5" cy="0.44" r="0.8">
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.4"/>
+    </radialGradient>
+
+    <filter id="haze" x="-15%" y="-30%" width="130%" height="160%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.016 0.0055" numOctaves="2" seed="9" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="7"/>
+    </filter>
+
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+
+    <filter id="bloom" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="blurSm" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+
+    <clipPath id="waterClip">
+      <rect x="0" y="430" width="800" height="170"/>
+    </clipPath>
+
+    <g id="aurora">
+      <path fill="url(#auroraC)" opacity="0.8" d="M -260 110 C 40 30, 280 150, 520 90 S 880 20, 1080 120 L 1080 250 C 880 160, 700 230, 520 200 S 40 140, -260 230 Z"/>
+      <path fill="url(#auroraB)" opacity="0.62" d="M -260 172 C 60 102, 300 212, 560 152 S 900 82, 1080 192 L 1080 302 C 900 202, 720 282, 560 232 S 60 192, -260 282 Z"/>
+      <path fill="url(#auroraA)" d="M -260 150 C 20 60, 260 200, 500 130 S 860 40, 1080 150 L 1080 330 C 860 220, 700 310, 500 270 S 20 200, -260 310 Z"/>
+      <g fill="none" stroke="url(#ray)" stroke-linecap="round">
+        <path d="M -60 130 V 300" stroke-width="2" opacity="0.3"/>
+        <path d="M -32 118 V 268" stroke-width="3" opacity="0.45"/>
+        <path d="M -4 126 V 330" stroke-width="2" opacity="0.25"/>
+        <path d="M 24 112 V 290" stroke-width="3" opacity="0.55"/>
+        <path d="M 52 132 V 316" stroke-width="2" opacity="0.35"/>
+        <path d="M 80 116 V 262" stroke-width="3" opacity="0.4"/>
+        <path d="M 108 128 V 336" stroke-width="2" opacity="0.28"/>
+        <path d="M 136 108 V 284" stroke-width="3" opacity="0.5"/>
+        <path d="M 164 124 V 310" stroke-width="2" opacity="0.32"/>
+        <path d="M 192 118 V 268" stroke-width="3" opacity="0.45"/>
+        <path d="M 220 134 V 344" stroke-width="2" opacity="0.26"/>
+        <path d="M 248 112 V 296" stroke-width="3" opacity="0.52"/>
+        <path d="M 276 126 V 322" stroke-width="2" opacity="0.34"/>
+        <path d="M 304 106 V 258" stroke-width="3" opacity="0.44"/>
+        <path d="M 332 122 V 300" stroke-width="2" opacity="0.3"/>
+        <path d="M 360 116 V 330" stroke-width="3" opacity="0.48"/>
+        <path d="M 388 130 V 272" stroke-width="2" opacity="0.27"/>
+        <path d="M 416 110 V 288" stroke-width="3" opacity="0.53"/>
+        <path d="M 444 124 V 318" stroke-width="2" opacity="0.33"/>
+        <path d="M 472 104 V 262" stroke-width="3" opacity="0.46"/>
+        <path d="M 500 120 V 306" stroke-width="2" opacity="0.29"/>
+        <path d="M 528 114 V 336" stroke-width="3" opacity="0.5"/>
+        <path d="M 556 132 V 276" stroke-width="2" opacity="0.31"/>
+        <path d="M 584 108 V 292" stroke-width="3" opacity="0.47"/>
+        <path d="M 612 122 V 324" stroke-width="2" opacity="0.28"/>
+        <path d="M 640 100 V 266" stroke-width="3" opacity="0.54"/>
+        <path d="M 668 128 V 308" stroke-width="2" opacity="0.32"/>
+        <path d="M 696 114 V 340" stroke-width="3" opacity="0.45"/>
+        <path d="M 724 126 V 280" stroke-width="2" opacity="0.26"/>
+        <path d="M 752 104 V 298" stroke-width="3" opacity="0.51"/>
+        <path d="M 780 120 V 328" stroke-width="2" opacity="0.3"/>
+        <path d="M 808 112 V 270" stroke-width="3" opacity="0.43"/>
+        <path d="M 836 130 V 314" stroke-width="2" opacity="0.28"/>
+        <path d="M 864 116 V 292" stroke-width="3" opacity="0.47"/>
+      </g>
+      <path fill="none" stroke="#a8ffe2" stroke-width="3.2" opacity="0.55" stroke-linecap="round" d="M -260 150 C 20 60, 260 200, 500 130 S 860 40, 1080 150"/>
+    </g>
+
+    <g id="s1"><circle r="1.1" fill="#ffffff"/></g>
+    <g id="s2"><circle r="1.9" fill="#e6f2ff"/></g>
+    <g id="s3"><circle r="2.6" fill="#cfe4ff"/><circle r="5.4" fill="#bcd8ff" opacity="0.16"/></g>
+
+    <g id="spark">
+      <path d="M -11 0 H 11 M 0 -11 V 11" stroke="#ffffff" stroke-width="1.1" stroke-linecap="round" opacity="0.9"/>
+      <circle r="1.8" fill="#ffffff"/>
+    </g>
+
+    <g id="pine">
+      <path d="M 0 -34 L 11 -11 L 5 -11 L 5 -1 L -5 -1 L -5 -11 L -11 -11 Z"/>
+    </g>
+
+    <rect id="glint" x="-34" y="-1.2" width="68" height="2.4" rx="1.2" fill="#ffeec2"/>
+
+    <style>
+      .tw1 { animation: tw 2.7s ease-in-out infinite; }
+      .tw2 { animation: tw 3.6s ease-in-out -1.1s infinite; }
+      .tw3 { animation: tw 4.4s ease-in-out -2.3s infinite; }
+      .tw4 { animation: tw 3.1s ease-in-out -0.4s infinite; }
+      .tw5 { animation: tw 5.2s ease-in-out -3.4s infinite; }
+      .tw6 { animation: tw 2.3s ease-in-out -1.7s infinite; }
+      .tw7 { animation: tw 4.9s ease-in-out -2.9s infinite; }
+      .tw8 { animation: tw 3.9s ease-in-out -0.9s infinite; }
+
+      .n1 { animation: nebA 34s ease-in-out infinite alternate; }
+      .n2 { animation: nebB 46s ease-in-out infinite alternate; }
+      .n3 { animation: nebC 40s ease-in-out infinite alternate; }
+
+      .a1 { animation: drift1 41s linear infinite, pulseA 13s ease-in-out infinite; }
+      .a2 { animation: drift2 57s linear infinite, pulseB 17s ease-in-out infinite; }
+      .a3 { animation: drift3 73s linear infinite, pulseC 21s ease-in-out infinite; }
+
+      .a1r { animation: drift1r 41s linear infinite, pulseA 13s ease-in-out infinite; }
+      .a2r { animation: drift2r 57s linear infinite, pulseB 17s ease-in-out infinite; }
+      .a3r { animation: drift3r 73s linear infinite, pulseC 21s ease-in-out infinite; }
+
+      .mg { animation: breathe 9s ease-in-out infinite; }
+      .sp { animation: sp 4.8s ease-in-out infinite; }
+      .sp2 { animation: sp 6.2s ease-in-out -2.4s infinite; }
+
+      .ff1 { animation: ff 6.5s ease-in-out infinite; }
+      .ff2 { animation: ff 8.1s ease-in-out -1.9s infinite; }
+      .ff3 { animation: ff 7.2s ease-in-out -3.6s infinite; }
+      .ff4 { animation: ff 9.4s ease-in-out -5.1s infinite; }
+
+      .g1 { animation: gl 2.9s ease-in-out infinite; }
+      .g2 { animation: gl 3.7s ease-in-out -1.2s infinite; }
+      .g3 { animation: gl 4.6s ease-in-out -2.5s infinite; }
+      .g4 { animation: gl 3.2s ease-in-out -0.6s infinite; }
+
+      .waterGlow { animation: wg 11s ease-in-out infinite; }
+
+      @keyframes tw { 0%, 100% { opacity: 0.14; } 50% { opacity: 1; } }
+      @keyframes nebA { from { transform: translate(-40px, 0px); } to { transform: translate(60px, 24px); } }
+      @keyframes nebB { from { transform: translate(30px, -20px); } to { transform: translate(-50px, 18px); } }
+      @keyframes nebC { from { transform: translate(0px, 20px); } to { transform: translate(38px, -26px); } }
+      @keyframes drift1 { from { transform: translateX(-120px); } to { transform: translateX(120px); } }
+      @keyframes drift2 { from { transform: translateX(110px); } to { transform: translateX(-130px); } }
+      @keyframes drift3 { from { transform: translateX(-70px); } to { transform: translateX(150px); } }
+      @keyframes drift1r { from { transform: translate(0px, 860px) scale(1, -1) translateX(-120px); } to { transform: translate(0px, 860px) scale(1, -1) translateX(120px); } }
+      @keyframes drift2r { from { transform: translate(0px, 860px) scale(1, -1) translateX(110px); } to { transform: translate(0px, 860px) scale(1, -1) translateX(-130px); } }
+      @keyframes drift3r { from { transform: translate(0px, 860px) scale(1, -1) translateX(-70px); } to { transform: translate(0px, 860px) scale(1, -1) translateX(150px); } }
+      @keyframes pulseA { 0%, 100% { opacity: 0.82; } 50% { opacity: 1; } }
+      @keyframes pulseB { 0%, 100% { opacity: 0.6; } 50% { opacity: 0.95; } }
+      @keyframes pulseC { 0%, 100% { opacity: 0.42; } 50% { opacity: 0.8; } }
+      @keyframes breathe { 0%, 100% { opacity: 0.75; } 50% { opacity: 1; } }
+      @keyframes sp { 0%, 100% { opacity: 0.18; } 50% { opacity: 1; } }
+      @keyframes ff { 0%, 100% { opacity: 0; transform: translate(0px, 0px); } 15% { opacity: 0.95; } 40% { opacity: 0.15; transform: translate(5px, -8px); } 65% { opacity: 0.85; transform: translate(-4px, -14px); } 85% { opacity: 0.1; } }
+      @keyframes gl { 0%, 100% { opacity: 0.06; } 50% { opacity: 0.95; } }
+      @keyframes wg { 0%, 100% { opacity: 0.55; } 50% { opacity: 0.95; } }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#sky)"/>
+
+  <g filter="url(#soft)">
+    <ellipse class="n1" cx="220" cy="180" rx="230" ry="120" fill="#2b6cff" opacity="0.18"/>
+    <ellipse class="n2" cx="600" cy="120" rx="200" ry="100" fill="#a13bff" opacity="0.16"/>
+    <ellipse class="n3" cx="420" cy="300" rx="260" ry="90" fill="#00d6a3" opacity="0.18"/>
+  </g>
+
+  <g filter="url(#soft)">
+    <ellipse class="n3" cx="400" cy="180" rx="330" ry="90" fill="#25ffc4" opacity="0.22"/>
+  </g>
+
+  <g>
+    <use href="#s1" x="18" y="26" class="tw1"/><use href="#s2" x="62" y="72" class="tw4"/>
+    <use href="#s1" x="104" y="14" class="tw6"/><use href="#s3" x="148" y="48" class="tw2"/>
+    <use href="#s1" x="192" y="90" class="tw8"/><use href="#s2" x="236" y="22" class="tw3"/>
+    <use href="#s1" x="280" y="64" class="tw1"/><use href="#s1" x="324" y="34" class="tw5"/>
+    <use href="#s2" x="368" y="104" class="tw6"/><use href="#s1" x="412" y="18" class="tw4"/>
+    <use href="#s1" x="456" y="58" class="tw7"/><use href="#s3" x="500" y="86" class="tw1"/>
+    <use href="#s2" x="544" y="30" class="tw5"/><use href="#s1" x="588" y="12" class="tw2"/>
+    <use href="#s1" x="632" y="68" class="tw3"/><use href="#s2" x="676" y="40" class="tw8"/>
+    <use href="#s1" x="720" y="96" class="tw6"/><use href="#s1" x="764" y="24" class="tw4"/>
+    <use href="#s2" x="786" y="112" class="tw7"/>
+
+    <use href="#s1" x="40" y="130" class="tw5"/><use href="#s1" x="86" y="168" class="tw2"/>
+    <use href="#s3" x="132" y="120" class="tw7"/><use href="#s1" x="176" y="204" class="tw3"/>
+    <use href="#s2" x="220" y="150" class="tw1"/><use href="#s1" x="264" y="112" class="tw8"/>
+    <use href="#s1" x="308" y="186" class="tw4"/><use href="#s2" x="352" y="140" class="tw6"/>
+    <use href="#s1" x="396" y="220" class="tw2"/><use href="#s3" x="440" y="164" class="tw5"/>
+    <use href="#s1" x="484" y="126" class="tw7"/><use href="#s1" x="528" y="196" class="tw3"/>
+    <use href="#s2" x="572" y="152" class="tw8"/><use href="#s1" x="616" y="210" class="tw4"/>
+    <use href="#s1" x="660" y="132" class="tw6"/><use href="#s3" x="704" y="178" class="tw1"/>
+    <use href="#s1" x="748" y="146" class="tw5"/><use href="#s2" x="776" y="212" class="tw2"/>
+
+    <use href="#s1" x="24" y="252" class="tw3"/><use href="#s1" x="72" y="288" class="tw6"/>
+    <use href="#s2" x="116" y="238" class="tw8"/><use href="#s1" x="160" y="302" class="tw4"/>
+    <use href="#s1" x="204" y="266" class="tw7"/><use href="#s3" x="248" y="322" class="tw1"/>
+    <use href="#s1" x="292" y="244" class="tw5"/><use href="#s2" x="336" y="290" class="tw2"/>
+    <use href="#s1" x="380" y="258" class="tw8"/><use href="#s1" x="424" y="316" class="tw6"/>
+    <use href="#s2" x="468" y="278" class="tw3"/><use href="#s1" x="512" y="334" class="tw7"/>
+    <use href="#s1" x="556" y="252" class="tw4"/><use href="#s3" x="600" y="300" class="tw5"/>
+    <use href="#s1" x="644" y="264" class="tw2"/><use href="#s2" x="688" y="330" class="tw6"/>
+    <use href="#s1" x="732" y="286" class="tw8"/><use href="#s1" x="772" y="350" class="tw4"/>
+
+    <use href="#s1" x="46" y="366" class="tw2"/><use href="#s1" x="98" y="398" class="tw7"/>
+    <use href="#s2" x="150" y="372" class="tw5"/><use href="#s1" x="202" y="404" class="tw3"/>
+    <use href="#s1" x="258" y="360" class="tw8"/><use href="#s1" x="310" y="396" class="tw6"/>
+    <use href="#s2" x="362" y="374" class="tw1"/><use href="#s1" x="414" y="408" class="tw4"/>
+    <use href="#s1" x="466" y="356" class="tw7"/><use href="#s1" x="518" y="392" class="tw2"/>
+    <use href="#s2" x="570" y="368" class="tw5"/><use href="#s1" x="622" y="404" class="tw3"/>
+    <use href="#s1" x="674" y="358" class="tw8"/><use href="#s1" x="726" y="390" class="tw6"/>
+    <use href="#s1" x="778" y="376" class="tw1"/>
+  </g>
+
+  <g class="mg">
+    <circle cx="620" cy="112" r="120" fill="url(#moonGlow)"/>
+    <circle cx="620" cy="112" r="34" fill="url(#moonFace)"/>
+    <circle cx="607" cy="100" r="6" fill="#d9cba8" opacity="0.4"/>
+    <circle cx="632" cy="124" r="8.5" fill="#d9cba8" opacity="0.32"/>
+    <circle cx="626" cy="98" r="3.6" fill="#d9cba8" opacity="0.35"/>
+    <circle cx="608" cy="126" r="4.4" fill="#d9cba8" opacity="0.28"/>
+  </g>
+
+  <use href="#spark" x="500" y="86" class="sp"/>
+  <use href="#spark" x="148" y="48" class="sp2"/>
+  <use href="#spark" x="704" y="178" class="sp" style="animation-delay:-1.6s"/>
+
+  <use href="#aurora" filter="url(#haze)" class="a1"/>
+  <use href="#aurora" filter="url(#haze)" class="a2" opacity="0.8"/>
+  <use href="#aurora" filter="url(#haze)" class="a3" opacity="0.6"/>
+
+  <g opacity="0.9">
+    <g>
+      <rect x="0" y="-1.3" width="220" height="2.6" rx="1.3" fill="url(#streak)"/>
+      <circle cx="220" cy="0" r="2.4" fill="#ffffff" filter="url(#bloom)"/>
+      <animateMotion dur="7.5s" begin="0.9s" repeatCount="indefinite" path="M -140 70 Q 60 130 210 210" rotate="auto"/>
+      <animate attributeName="opacity" dur="7.5s" begin="0.9s" repeatCount="indefinite"
+               values="0;0;1;1;0;0" keyTimes="0;0.42;0.47;0.66;0.72;1"/>
+    </g>
+    <g>
+      <rect x="0" y="-1.1" width="170" height="2.2" rx="1.1" fill="url(#streak)"/>
+      <circle cx="170" cy="0" r="2" fill="#e8f2ff" filter="url(#bloom)"/>
+      <animateMotion dur="5.8s" begin="3.6s" repeatCount="indefinite" path="M 940 40 Q 740 120 640 190" rotate="auto"/>
+      <animate attributeName="opacity" dur="5.8s" begin="3.6s" repeatCount="indefinite"
+               values="0;0;1;1;0;0" keyTimes="0;0.4;0.46;0.64;0.7;1"/>
+    </g>
+    <g>
+      <rect x="0" y="-0.9" width="130" height="1.8" rx="0.9" fill="url(#streak)"/>
+      <circle cx="130" cy="0" r="1.7" fill="#dbe9ff" filter="url(#bloom)"/>
+      <animateMotion dur="10s" begin="6.4s" repeatCount="indefinite" path="M -80 330 Q 60 300 170 250" rotate="auto"/>
+      <animate attributeName="opacity" dur="10s" begin="6.4s" repeatCount="indefinite"
+               values="0;0;1;1;0;0" keyTimes="0;0.5;0.55;0.7;0.75;1"/>
+    </g>
+  </g>
+
+  <rect class="waterGlow" x="0" y="360" width="800" height="120" fill="url(#horizon)" filter="url(#soft2)"/>
+
+  <g>
+    <path fill="#2a3160" opacity="0.65" d="M 0 430 L 0 358 L 70 300 L 132 356 L 202 320 L 262 372 L 332 308 L 402 366 L 470 300 L 542 352 L 612 314 L 682 366 L 742 330 L 800 354 L 800 430 Z"/>
+    <path fill="#161c3e" d="M 0 430 L 0 396 L 90 350 L 172 402 L 242 360 L 322 406 L 402 354 L 482 402 L 562 364 L 642 406 L 722 370 L 800 400 L 800 430 Z"/>
+    <path fill="#080b1c" d="M 0 430 L 0 416 L 120 392 L 240 421 L 360 399 L 500 425 L 620 403 L 740 423 L 800 411 L 800 430 Z"/>
+  </g>
+
+  <g fill="#05070f">
+    <use href="#pine" transform="translate(58, 416) scale(0.75)"/>
+    <use href="#pine" transform="translate(104, 404) scale(0.55)"/>
+    <use href="#pine" transform="translate(196, 421) scale(0.62)"/>
+    <use href="#pine" transform="translate(268, 415) scale(0.85)"/>
+    <use href="#pine" transform="translate(330, 402) scale(0.5)"/>
+    <use href="#pine" transform="translate(432, 424) scale(0.7)"/>
+    <use href="#pine" transform="translate(512, 419) scale(0.9)"/>
+    <use href="#pine" transform="translate(566, 410) scale(0.58)"/>
+    <use href="#pine" transform="translate(648, 407) scale(0.8)"/>
+    <use href="#pine" transform="translate(742, 421) scale(0.66)"/>
+    <use href="#pine" transform="translate(786, 413) scale(0.52)"/>
+  </g>
+
+  <rect x="0" y="430" width="800" height="170" fill="url(#water)"/>
+
+  <g clip-path="url(#waterClip)">
+    <g filter="url(#haze)" opacity="0.5">
+      <use href="#aurora" class="a1r"/>
+      <use href="#aurora" class="a2r" opacity="0.7"/>
+    </g>
+    <g filter="url(#soft2)" opacity="0.36">
+      <use href="#aurora" class="a3r" opacity="0.6"/>
+      <circle cx="620" cy="112" r="46" fill="url(#moonFace)" opacity="0.6" transform="translate(0,860) scale(1,-1)"/>
+    </g>
+  </g>
+
+  <g opacity="0.9" filter="url(#bloom)">
+    <use href="#glint" transform="translate(620, 448) scale(1.5)" class="g1"/>
+    <use href="#glint" transform="translate(604, 470) scale(1.1)" class="g3"/>
+    <use href="#glint" transform="translate(636, 492) scale(1.8)" class="g2"/>
+    <use href="#glint" transform="translate(598, 516) scale(0.9)" class="g4"/>
+    <use href="#glint" transform="translate(632, 540) scale(1.4)" class="g1"/>
+    <use href="#glint" transform="translate(612, 566) scale(1.0)" class="g2"/>
+    <use href="#glint" transform="translate(260, 462) scale(1.6)" class="g3"/>
+    <use href="#glint" transform="translate(300, 500) scale(1.2)" class="g4"/>
+    <use href="#glint" transform="translate(232, 540) scale(1.0)" class="g1"/>
+  </g>
+
+  <g filter="url(#blurSm)">
+    <circle class="ff1" cx="150" cy="470" r="3.2" fill="#ffe27a"/>
+    <circle class="ff2" cx="238" cy="520" r="2.7" fill="#ffd76b"/>
+    <circle class="ff3" cx="330" cy="464" r="3" fill="#ffe98f"/>
+    <circle class="ff4" cx="420" cy="540" r="2.6" fill="#ffcf5c"/>
+    <circle class="ff2" cx="512" cy="488" r="3.1" fill="#ffe27a"/>
+    <circle class="ff3" cx="694" cy="518" r="2.8" fill="#ffe98f"/>
+    <circle class="ff1" cx="742" cy="466" r="3" fill="#ffd76b"/>
+    <circle class="ff4" cx="88" cy="540" r="2.7" fill="#ffe27a"/>
+    <circle class="ff3" cx="588" cy="560" r="2.6" fill="#ffd76b"/>
+    <circle class="ff1" cx="380" cy="576" r="2.9" fill="#ffe98f"/>
+  </g>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#vignette)"/>
+
+</svg>
+<rect x="0" y="0" width="1331" height="728" fill="url(#scrim)"/>
+<rect x="0" y="0" width="1331" height="728" fill="url(#glass)"/>
+<ellipse cx="400" cy="480" rx="360" ry="260" fill="url(#keyLight)"/>
+<rect x="716" y="252" width="602" height="228" rx="12" fill="url(#sideFade)"/>
+</g>
+<rect x="0.5" y="0.5" width="1330" height="727" rx="8" fill="none" stroke="#c9d1d9" stroke-opacity="0.2"/>
+  <text x="28" y="34.6" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="44.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Q@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="53.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@4@@@@@@@@@@\(//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="63.400000000000006" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|:!/@@@@@@\\:::/q@@@@@@@@@--Y@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="73" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|`: ::/Q@@\ : :::|@@@UV-~::::j@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="82.6" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@f-AUQ@@@@@|    :::+`:: : :::!f:::::: :jj@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="92.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@g:     '--      :::: :  : ::::: : :: ::j@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="101.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|           :::      :     : : : : :::jo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="111.39999999999999" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|                             :: ::::::::j!==v=|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="121" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@UX-----'                             :::: ::::::::::j\@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="130.6" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@g/:                                  :::::::::::::jj\@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="140.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@g//:                               ::: : :::::::j[Q@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="149.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@e!:                               :::::::::::::::jnAo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="159.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\`:: :          :                :    :::::|x;j:jjjxxxug@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="169" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\T::::::::: :      ::           :  :.:. ::::j:::ixxxxxxxgg@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="178.6" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ggg::::::::  :    :_j/.:::::::::  ::!jj:: ::|;:::xxxxxx@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="188.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\::jjjj: :.j   :\@@ooooooooooooooooo@g/::::x;::jxxxxxaQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="197.79999999999998" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ouuguxgo|::|u|  \jUXennf*nnwoooooooo@o@@@/:::jxj.jjggxxxx$@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="207.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@y(:i\@| \pj=:j: '     ::::_j:jxxxx@/j;jxg/jj/@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="217" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|j|g@@:\@|::jj:    \/&amp;lt;j)=vjjjxxxxxg@/xjjq@ggja@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="226.6" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@||xoQw\@@|j:jj|   /+;|_[;:jjjxxxxx@@@/x|pQ@@@gq@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="236.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@p|$ogxooo|j;:j|: &quot;^!vj_z:jjjxoxxxq@@@@/q@@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="245.79999999999998" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\[oooooo@oggggu----_;_uuuuggggggg@@@@@@@@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="255.39999999999998" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@u.j:-[!!++jj=&quot;---YYYYYVVVVVVXXXXU$$UUUQUwxoxo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="265" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@jo;: : _guxqgg/_:    :     ___gggguxxxaxxoxoo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="274.6" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:iu| : |c :jxx$uvxj::: !jxxxoowo$y1qpjxxxggoo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="284.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@;[x|::  !: ''-`::'`     |v&amp;lt;)`!jj)'|axjxxxo@x|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="293.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//!li|    ::::::        :   :::::'-'uxxxggUq@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="303.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@, +:-:::    :                 :: jjjxowxg@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="313" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//_;  : ::         ::;        :::jjjxxxg@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="322.59999999999997" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@||x::':            |j:      : :jxxxoxx|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="332.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@cgxL  :::       ___|jj.     ::|jxxpxggg@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="341.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@g@@p/   ::      '+xxxx:: : ::|jxugoo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="351.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@q@|.:   :      :::: :::::jjxq@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="361" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|@| :::  ::''-!':::!:::jjxux@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="370.59999999999997" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|oo. '.:   : '=jjj::::jxuoxo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="380.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|ioo/,'|_:        ::jugoogg@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="389.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\{ooooog_jx__: :::._\go@@@@@@@@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="399.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@U\`._ggoooooooo@@@@ggo@@@@@@@@@@@@@@oooo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="409" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@U--^'_j_jjj|@@@oooooooo@@@oo@@@@@@@@@@@@@@ooooooxoo$UQ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="418.59999999999997" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@U--'  ._jjjjjjjj|@@o@ooooooooo@oo@@@@@@@@@@@@@oooooooooxxjjug@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="428.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\Y- ..____jjjjjjjjjjj@@ooo@o@ooooooo1@@@@@@@@@@@@ooowsaoooojjjg@@@@@$ooo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="437.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\ .jjjjjjjjjjjjjjjjjjj|@@d@ggoooooooo|q@@@@@@@@@\jjjjjjjoxjjj|g@o@o$xxxxxooo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="447.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\  |jjjjjjjjjjjjjjjjjjjjj|@ooQ@oooooo@ouoo@@@@@@o\jjjjjjjjj'   gooowjjjjxjjjaoo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="457" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@@\`__|jjjjjjjjjjjjjjjjjjjjjj|@@ooooooooo@ox@@@@oooo\jjjjjjjjj`  \oooxxjxuoojjjjxxoo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="466.59999999999997" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@@\` jjjjxxjjjjjjjjjjjjjjjjjjjj|@goooooooooouoooo@oobjjjjjjjjj|   goooxxxuoooxxxxjjxxo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="476.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@|`_jjjjjjjjjjjjjjjjjjjjjjjjjjjj|@oooooooooxqooooooejjjjjjjjj:  \oooxxjxxjjjxxxxxjxxxo@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="485.79999999999995" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@@|.jjjjjjjjjjjujjjjjjjjjj:jjjjjj|@@ooooooooxxoooooIjjjjjjjjj:   joowxxjjxjjjxjjjjjxxxxoo@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="495.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@|.jjjjjjjjjjjjxx;jjjjjjiujjjjjjjj|@@ooooooojxooowjjjjjjjjjj)   \oowjxxjujxxxjjjjjxxxxooo@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="505" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@@|jjjjjjjjjjjjjjixujixjjio/jjjjjjjj|@@oooooojxooIjjjjjjjjjjj`  |oooxjjxjoxoxjjjjjjxoxxoooo@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="514.5999999999999" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@|jjjjjjjjjjjjjjjjjaguyjjj@gxjjjjjjj|@@@ooooojqwjjjjjjjjjjjj`  \oooxjjjpuooxjjjjjjxoxxooooo@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="524.2" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@|jjjjjjjjjjjjjjjxjj/ogjjj@@gxjjjjjjj1@@@ooo@xojjjjjjjjjjjj`  \ooouojjipxoxjjxxxxxxxxoooooo@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="533.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@cjjjjjjjjjjjjjjjxxjj/ooyjo@@gujjjjxxjja@@@o@Ijjjjjjjjjjjj`  \ooopqojjuowxjxxxxxxxxuooooooo@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="543.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@jjjjjjjjjjjj|qoxuxjjjaoouoa@@@gjjjjxxxjja@@sjjjjxjjjjjjj:  \oooojuoyjuwjjxxxuxxxxgooooooooo@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="553" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@xjjjjjjjjjjjjj1xoooxxgxoooxa@@@oxjjxxxxxxxxxxxxxjjjjjjj:  \oooo|jxoogyuxooooojjxgoooooooooooo@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="562.6" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@xxjjjjjjjjjjjjjj1oooooogxoxxao@@oujxxxxxxxxxxxojjjjjjjj _\@@@@|jjjxoogoooowxjjuoooooooooooooo@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="572.1999999999999" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@@yxxxjjjjjxxxjjjjjjaoooooo@xxxoooooxxxxxxxxxjjjjjjjjjjjjjj@@@@@uxjjxoo@o@mxxxjqoooooooooo$oooo@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="581.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@|`|xxxxjjjjxxxxxxxjjjaoooo@gxxoooooooxxc::'&amp;lt;xxjjjjjjjjjjjg@@@@poooggooowxxxxjgooo@ooowxxxxooooo@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="591.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@@| |jjjjjjjjjjjjjjjxxx=?*5a@@goooo@@goo|.   |xjjjjjjjjjjj|@@@@pxooooo@oxxxxxxgooo$wxxxxxxxxoooooo@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="601" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@| _jjjjjjjjjjjjjjjr':      :--Yqoo@@@gxxj...|jjjjjjjjj!j|oooo@|jxqo@o@|xxxxgo$xxxxxxxxxxxxxoooooo@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="610.6" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@||jjjjjjjjjjjjjj'--: :::::::   |aoo@@\j)` jjxjjjjjjjj` |ooooopjjjxao@opxxoaxxxxxxxxxxxxxxxxoooooo@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="620.1999999999999" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@cjjjjjjjjjjjjjjj: ::       '!_. !/oxxxxj.|xjxjjjjjjj| :goooooxjjjjxqo@oxxxxxxxxxxxxxxxxxxxxooooooo@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="629.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@@|jjjjjjjjjjjjjjjuj:::::    :_jx;::1oxxxxj;1jaujjjjxyjj\@@@@@|xjjjugoooo@pxxxxxxxxjjj=!!!!jjooooooo@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="639.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@|'j)-:_____________;     '::_jjjj;::|xjvxjj:''aoxxxoxj\@@@@@\)--_|xwo+++axxj=!-::_____jjjjuoxxooxooq@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="649" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@|  _jjxuggggggggggoog--__..|xxjjjjc::|q;jj=u;.|oooooj|----'  ._jjjjjx;. j!___jugggggo@@@oggoooooooxo@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="658.6" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@|\\gg@@@@@@@@@o@o@@@Q@@@@gyxxjjjjjxx__jouu;j)' &quot;^''        _jjjjjjjjjjj_xugg@@QQQ@@@@@@@@@@@@@@oooooo@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="668.1999999999999" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@:\@@@@@@@o@oo@oUoxjjuawUomoxxxxxwoxxxxxxxxxxxoxxu_--___. _jjjjjjxjjjjjjao@@@xgggogxxxQ@@@@@@@@@@@@@ooo@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="677.8" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@@i@@@@@@o@o@omoxjxxuxxxxxxxjxxxxxxxxxxxjxxxxxxooxooooouzxxxjjjxxxxxjjjjj|@@xxU$oggooooxa@@@@@@@@@@@@@@o@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="687.4" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@p@@@@o@@o@omxxxxxxooqowxxxxxxxxxxxxxxxxxxxxxxxxxoooxxxxxxxjjxxooooxjjjjj|oaopxxxxxo$ooogo@@@@@@@@@@@o@@@@@@@@@@@@@@@@@@@</text>
+  <text x="28" y="697" fill="#01030a" fill-opacity="0.55" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">@@@@@@@@@@@@@@@@@@@@go@@@@o@@pxxxjxxxxxuUxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxoooooxxxjjjju@xxoxxxooxxxxo@@ooooo@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="746.4" y="279" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#8b949e">â”€</tspan><tspan fill="#58a6ff"> Ny-Menghong@github </tspan><tspan fill="#8b949e">â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</tspan></text>
+  <text x="746.4" y="299" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Uptime: </tspan><tspan fill="#6e7681">......................</tspan><tspan fill="#e6edf3"> 1 year, 2 months, 2 days</tspan></text>
+  <text x="746.4" y="319" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Languages: </tspan><tspan fill="#6e7681">........</tspan><tspan fill="#e6edf3"> HTML, JavaScript, PHP, Python, Java</tspan></text>
+  <text x="746.4" y="359" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#8b949e">â”€</tspan><tspan fill="#58a6ff"> Contact </tspan><tspan fill="#8b949e">â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</tspan></text>
+  <text x="746.4" y="379" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. GitHub: </tspan><tspan fill="#6e7681">........................</tspan><tspan fill="#e6edf3"> github.com/Ny-Menghong</tspan></text>
+  <text x="746.4" y="419" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#8b949e">â”€</tspan><tspan fill="#58a6ff"> GitHub Stats </tspan><tspan fill="#8b949e">â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</tspan></text>
+  <text x="746.4" y="439" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Repos: </tspan><tspan fill="#6e7681">..............</tspan><tspan fill="#79c0ff"> 21</tspan><tspan fill="#8b949e"> | </tspan><tspan fill="#ffa657">. Stars: </tspan><tspan fill="#6e7681">...............</tspan><tspan fill="#79c0ff"> 0</tspan></text>
+  <text x="746.4" y="459" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="16"><tspan fill="#ffa657">. Commits: </tspan><tspan fill="#6e7681">............</tspan><tspan fill="#79c0ff"> 78</tspan><tspan fill="#8b949e"> | </tspan><tspan fill="#ffa657">. Followers: </tspan><tspan fill="#6e7681">...........</tspan><tspan fill="#79c0ff"> 1</tspan></text>
+</svg>
