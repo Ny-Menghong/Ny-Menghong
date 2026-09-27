@@ -31,7 +31,7 @@
 <tr>
 <td width="40%" align="center">
 
-<img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/3fa8d871339223.5bea20907a30e.gif" width="300" alt="Naruto Action"/>
+<img src="https://images.steamusercontent.com/ugc/959712592502408968/7B1B79AE9FDA73BE5B7C11F66F39C6DD3C8A5036/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" width="300" alt="Naruto Action"/>
 
 </td>
 <td width="60%">
